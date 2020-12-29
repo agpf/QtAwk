@@ -28,7 +28,7 @@ HEADERS += \
     ../include/awklib.h \
     qtawk.h
 
-INCLUDEPATH += $$PWD/awk/ $$PWD/../include
+INCLUDEPATH += $$PWD/awk/
 
 # Default rules for deployment.
 unix {
