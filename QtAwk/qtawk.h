@@ -23,7 +23,7 @@ public:
     int setProg(const char *prog){
         return awk_setprog(pi, prog);
     }
-    int addArgs(const char *arg){
+    int addArg(const char *arg){
         return awk_addarg(pi, arg);
     }
     int compile(){
