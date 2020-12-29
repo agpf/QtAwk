@@ -3,7 +3,7 @@ QT -= gui
 TEMPLATE = lib
 DEFINES += QTAWK_LIBRARY
 
-CONFIG += c++11
+CONFIG += c++11 staticlib
 
 # You can make your code fail to compile if it uses deprecated APIs.
 # In order to do so, uncomment the following line.
